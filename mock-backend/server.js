@@ -110,6 +110,111 @@ const PRODUCTS = [
   makeProduct(16, "Medusa Water Bottle", "medusa-water-bottle", "col_4", "cat_4", "merch", 2000),
 ]
 
+// Mock customer
+const MOCK_CUSTOMER = {
+  id: "cust_1",
+  email: "operator@medusa.org",
+  first_name: "Operator",
+  last_name: "User",
+  phone: "+45 12 34 56 78",
+  addresses: [
+    {
+      id: "addr_1",
+      first_name: "Operator",
+      last_name: "User",
+      company: "Medusa",
+      address_1: "Test Street 1",
+      address_2: null,
+      city: "Copenhagen",
+      postal_code: "1000",
+      province: null,
+      country_code: "dk",
+      phone: "+45 12 34 56 78",
+      is_default_billing: true,
+      is_default_shipping: true,
+    },
+  ],
+  orders: [],
+}
+
+// Mock orders
+const MOCK_ORDERS = [
+  {
+    id: "order_1",
+    display_id: 1001,
+    status: "completed",
+    fulfillment_status: "fulfilled",
+    payment_status: "captured",
+    total: 3300,
+    subtotal: 3300,
+    currency_code: "eur",
+    email: "operator@medusa.org",
+    created_at: new Date(Date.now() - 7 * 86400000).toISOString(),
+    items: [
+      {
+        id: "order_item_1",
+        quantity: 1,
+        unit_price: 1500,
+        total: 1500,
+        product_title: "Medusa T-Shirt",
+        variant_title: "M",
+        thumbnail: "https://picsum.photos/seed/medusatshirt/800/1000",
+        variant: { id: "var_1_2", title: "M", product: { id: "prod_1", handle: "medusa-t-shirt", title: "Medusa T-Shirt" } },
+      },
+      {
+        id: "order_item_2",
+        quantity: 1,
+        unit_price: 1800,
+        total: 1800,
+        product_title: "Medusa V-Neck",
+        variant_title: "L",
+        thumbnail: "https://picsum.photos/seed/medusavneck/800/1000",
+        variant: { id: "var_3_3", title: "L", product: { id: "prod_3", handle: "medusa-v-neck", title: "Medusa V-Neck" } },
+      },
+    ],
+    shipping_address: {
+      first_name: "Operator",
+      last_name: "User",
+      address_1: "Test Street 1",
+      city: "Copenhagen",
+      postal_code: "1000",
+      country_code: "dk",
+    },
+  },
+  {
+    id: "order_2",
+    display_id: 1002,
+    status: "completed",
+    fulfillment_status: "fulfilled",
+    payment_status: "captured",
+    total: 4500,
+    subtotal: 4500,
+    currency_code: "eur",
+    email: "operator@medusa.org",
+    created_at: new Date(Date.now() - 3 * 86400000).toISOString(),
+    items: [
+      {
+        id: "order_item_3",
+        quantity: 1,
+        unit_price: 4500,
+        total: 4500,
+        product_title: "Medusa Hoodie",
+        variant_title: "L",
+        thumbnail: "https://picsum.photos/seed/medusahoodie/800/1000",
+        variant: { id: "var_5_3", title: "L", product: { id: "prod_5", handle: "medusa-hoodie", title: "Medusa Hoodie" } },
+      },
+    ],
+    shipping_address: {
+      first_name: "Operator",
+      last_name: "User",
+      address_1: "Test Street 1",
+      city: "Copenhagen",
+      postal_code: "1000",
+      country_code: "dk",
+    },
+  },
+]
+
 // In-memory cart store
 const carts = new Map()
 
@@ -132,6 +237,7 @@ function makeCart(id, regionId) {
     billing_address: null,
     shipping_methods: [],
     promotions: [],
+    customer_id: null,
   }
 }
 
@@ -342,7 +448,11 @@ const server = http.createServer(async (req, res) => {
   }
   // Cart customer transfer — before generic POST
   if (path.match(/^\/store\/carts\/[^/]+\/customer$/) && method === "POST") {
-    return sendJSON(res, { cart: carts.get(path.split("/")[3]) || makeCart("cart_x", REGION.id) })
+    const cartId = path.split("/")[3]
+    const cart = carts.get(cartId) || makeCart(cartId, REGION.id)
+    cart.customer_id = MOCK_CUSTOMER.id
+    carts.set(cartId, cart)
+    return sendJSON(res, { cart })
   }
   if (path.startsWith("/store/carts/") && method === "GET") {
     const id = path.split("/")[3]
@@ -369,19 +479,13 @@ const server = http.createServer(async (req, res) => {
   if (path === "/store/customers/me" && method === "GET") {
     const auth = req.headers.authorization
     if (!auth) return sendJSON(res, { error: "Unauthorized" }, 401)
-    return sendJSON(res, {
-      customer: { id: "cust_1", email: "test@example.com", first_name: "Test", last_name: "User", orders: [] },
-    })
+    return sendJSON(res, { customer: MOCK_CUSTOMER })
   }
   if (path === "/store/customers" && method === "POST") {
-    return sendJSON(res, {
-      customer: { id: "cust_1", email: "test@example.com", first_name: "Test", last_name: "User" },
-    })
+    return sendJSON(res, { customer: MOCK_CUSTOMER })
   }
   if (path === "/store/customers/me" && method === "POST") {
-    return sendJSON(res, {
-      customer: { id: "cust_1", email: "test@example.com", first_name: "Test", last_name: "User" },
-    })
+    return sendJSON(res, { customer: MOCK_CUSTOMER })
   }
 
   // --- Shipping ---
@@ -399,9 +503,12 @@ const server = http.createServer(async (req, res) => {
 
   // --- Orders ---
   if (path === "/store/orders" && method === "GET") {
-    return sendJSON(res, { orders: [], count: 0 })
+    return sendJSON(res, { orders: MOCK_ORDERS, count: MOCK_ORDERS.length })
   }
   if (path.startsWith("/store/orders/") && method === "GET") {
+    const id = path.split("/")[3]
+    const order = MOCK_ORDERS.find((o) => o.id === id)
+    if (order) return sendJSON(res, { order })
     return sendJSON(res, { error: "Order not found" }, 404)
   }
 

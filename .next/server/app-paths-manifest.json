@@ -1,4 +1,6 @@
 {
+  "/[countryCode]/(checkout)/checkout/page": "app/[countryCode]/(checkout)/checkout/page.js",
+  "/[countryCode]/(main)/account/@dashboard/profile/page": "app/[countryCode]/(main)/account/@dashboard/profile/page.js",
   "/[countryCode]/(main)/account/@login/page": "app/[countryCode]/(main)/account/@login/page.js",
   "/[countryCode]/(main)/cart/page": "app/[countryCode]/(main)/cart/page.js",
   "/[countryCode]/(main)/products/[handle]/page": "app/[countryCode]/(main)/products/[handle]/page.js",
