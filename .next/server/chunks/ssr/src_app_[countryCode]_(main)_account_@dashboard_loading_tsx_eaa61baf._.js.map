@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///app/src/app/%5BcountryCode%5D/%28main%29/account/%40dashboard/loading.tsx"],"sourcesContent":["import Spinner from \"@modules/common/icons/spinner\"\n\nexport default function Loading() {\n  return (\n    <div className=\"flex items-center justify-center w-full h-full text-ui-fg-base\">\n      <Spinner size={36} />\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,wJAAO;YAAC,MAAM;;;;;;;;;;;AAGrB","debugId":null}}]
+}

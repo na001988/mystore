@@ -134,7 +134,7 @@ const removeCartId = async ()=>{
 "[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"7f68bf01e452925f6112ede6be443283211d2e0d36":"setLocaleCookie","7fc0a06628704503f76e7c5b18bb50d2949d8ddaa5":"updateLocale","7fefbb3802aeda299d1b445eab47049edc43125c9f":"getLocale"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"7f2912caf5e04ad9323697b609fda139fd90404b4c":"updateLocale","7f43d47346aa7e8d49fba5bcc88ff985e09f51fb87":"getLocale","7f52211f12698e8ed1ef65bf07ce5d3d9b2dd6b1f8":"setLocaleCookie"},"",""] */ __turbopack_context__.s([
     "getLocale",
     ()=>getLocale,
     "setLocaleCookie",
@@ -208,9 +208,9 @@ const updateLocale = async (localeCode)=>{
     setLocaleCookie,
     updateLocale
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getLocale, "7fefbb3802aeda299d1b445eab47049edc43125c9f", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(setLocaleCookie, "7f68bf01e452925f6112ede6be443283211d2e0d36", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateLocale, "7fc0a06628704503f76e7c5b18bb50d2949d8ddaa5", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getLocale, "7f43d47346aa7e8d49fba5bcc88ff985e09f51fb87", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(setLocaleCookie, "7f52211f12698e8ed1ef65bf07ce5d3d9b2dd6b1f8", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateLocale, "7f2912caf5e04ad9323697b609fda139fd90404b4c", null);
 }),
 "[project]/src/lib/util/get-locale-header.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -300,7 +300,7 @@ function medusaError(error) {
 "[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"7f24eaf9df0c05856b293af6d466c2cd0b13230f1a":"retrieveRegion","7f3a3c0829195f07e7a11c7ff49ce3db55a7385bff":"getRegion","7f6db39692253889370cb2c5c80328b4c091d28bf5":"listRegions"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"7f0426df460507e6244a4d24a214e2c9f4cb12000f":"getRegion","7f6286d88b5deddc34f782f0c93cecd46bd3a078ad":"retrieveRegion","7f77ad0506a8a4c3e49d0a5335b59ffdfc330bf918":"listRegions"},"",""] */ __turbopack_context__.s([
     "getRegion",
     ()=>getRegion,
     "listRegions",
@@ -361,14 +361,14 @@ const getRegion = async (countryCode)=>{
     retrieveRegion,
     getRegion
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(listRegions, "7f6db39692253889370cb2c5c80328b4c091d28bf5", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(retrieveRegion, "7f24eaf9df0c05856b293af6d466c2cd0b13230f1a", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getRegion, "7f3a3c0829195f07e7a11c7ff49ce3db55a7385bff", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(listRegions, "7f77ad0506a8a4c3e49d0a5335b59ffdfc330bf918", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(retrieveRegion, "7f6286d88b5deddc34f782f0c93cecd46bd3a078ad", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getRegion, "7f0426df460507e6244a4d24a214e2c9f4cb12000f", null);
 }),
 "[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"00d8ebc3d9814352877c4fe0232c863ab62c0a7f74":"listCartOptions","4027f9f43c9d05ad5f80fa0ccb5b5b0e2c122ea784":"addToCart","40372e60482e3cc53d0c63719fd20378f59bb532bc":"getOrSetCart","40555c7f752086690803dd5ff32cb69604787e9fed":"applyGiftCard","405bf3340ec6b101b7f991d09f28f97cd09a130fdb":"deleteLineItem","405eb366ab7e1731bd4bf1ab921413d6dc060955bb":"updateCart","405fbe16c75f824ef2857e89b78885a8974cee566f":"removeDiscount","408a6891a21a26befadfe4303a752c506f11bcf51f":"placeOrder","4096dc473fef6a381ef94ae036c219375963d0dd97":"updateLineItem","40cc647d5bf97e97d052b864ab48af33107b8a33a7":"applyPromotions","40d926797d2124e97ff0c3c73d1d1c988f1acf5b3f":"setShippingMethod","60235dfcf45fb2f13d30796fe079f6d6a2dec51966":"setAddresses","6077bd7e25e7580f1463e4d6fd46a997f2642a0315":"updateRegion","608d05509ac573c5a645496be30212a551f823ffc0":"retrieveCart","608ff129d6a24e1353d3d67bbbbfbc10d1ec6e764d":"removeGiftCard","60f63265f2fdcd482caa1a93d4d49e7748bfbd7955":"initiatePaymentSession","60f8bb3f0d2818ddfe7dd4da7486ff48e1deb2df25":"submitPromotionForm"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"00d80e737f1368390fd30800445b728af2c2798ffd":"listCartOptions","4018761d808cb74a8240ab069858edd3df01ac6ad6":"deleteLineItem","402a476b5141a9741f41f9c5f6f184911ce1e07d99":"updateLineItem","403429790db3ebf0cb9fb0d609877fd9e6ee3c54d4":"setShippingMethod","4040ab96b4c99f398cb2345b2970dbe993bb1a1bb1":"placeOrder","405979a37a83f6f8d0ba0e7bdc4e2f23afb9e109b1":"removeDiscount","4069c4386e8d86f831be4071d022d0d4fcb6d0256b":"applyGiftCard","406bdb42a144d08299dfdef4b972628e8c1a0ee6b9":"getOrSetCart","408a7409e2e6e23bd5d0b864a118e658cc46e6e387":"addToCart","409541b3c896d7ca07df0d40f41265ba3502f6d1fe":"updateCart","40b2107f24b1ac3d93f1e0a2f3c47c7e82e8765077":"applyPromotions","60054b93c668246c678412b886e1b1aace1f72e097":"submitPromotionForm","601c49c07f836184c1ddf59d80e04b686528204245":"removeGiftCard","6072073aea116047e91d5d10c43b88d4859cbeb102":"updateRegion","607a9a997db31cad9134d52fd41574f0d183ed724a":"initiatePaymentSession","60866bcc1d609cdc96e1726a91dcaa1a209e78536e":"setAddresses","60fc8b021c9459e77bc2dd47ed1f7b35aaaab72271":"retrieveCart"},"",""] */ __turbopack_context__.s([
     "addToCart",
     ()=>addToCart,
     "applyGiftCard",
@@ -754,28 +754,28 @@ async function listCartOptions() {
     updateRegion,
     listCartOptions
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(retrieveCart, "608d05509ac573c5a645496be30212a551f823ffc0", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getOrSetCart, "40372e60482e3cc53d0c63719fd20378f59bb532bc", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateCart, "405eb366ab7e1731bd4bf1ab921413d6dc060955bb", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(addToCart, "4027f9f43c9d05ad5f80fa0ccb5b5b0e2c122ea784", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateLineItem, "4096dc473fef6a381ef94ae036c219375963d0dd97", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteLineItem, "405bf3340ec6b101b7f991d09f28f97cd09a130fdb", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(setShippingMethod, "40d926797d2124e97ff0c3c73d1d1c988f1acf5b3f", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(initiatePaymentSession, "60f63265f2fdcd482caa1a93d4d49e7748bfbd7955", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(applyPromotions, "40cc647d5bf97e97d052b864ab48af33107b8a33a7", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(applyGiftCard, "40555c7f752086690803dd5ff32cb69604787e9fed", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(removeDiscount, "405fbe16c75f824ef2857e89b78885a8974cee566f", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(removeGiftCard, "608ff129d6a24e1353d3d67bbbbfbc10d1ec6e764d", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(submitPromotionForm, "60f8bb3f0d2818ddfe7dd4da7486ff48e1deb2df25", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(setAddresses, "60235dfcf45fb2f13d30796fe079f6d6a2dec51966", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(placeOrder, "408a6891a21a26befadfe4303a752c506f11bcf51f", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateRegion, "6077bd7e25e7580f1463e4d6fd46a997f2642a0315", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(listCartOptions, "00d8ebc3d9814352877c4fe0232c863ab62c0a7f74", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(retrieveCart, "60fc8b021c9459e77bc2dd47ed1f7b35aaaab72271", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getOrSetCart, "406bdb42a144d08299dfdef4b972628e8c1a0ee6b9", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateCart, "409541b3c896d7ca07df0d40f41265ba3502f6d1fe", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(addToCart, "408a7409e2e6e23bd5d0b864a118e658cc46e6e387", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateLineItem, "402a476b5141a9741f41f9c5f6f184911ce1e07d99", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteLineItem, "4018761d808cb74a8240ab069858edd3df01ac6ad6", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(setShippingMethod, "403429790db3ebf0cb9fb0d609877fd9e6ee3c54d4", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(initiatePaymentSession, "607a9a997db31cad9134d52fd41574f0d183ed724a", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(applyPromotions, "40b2107f24b1ac3d93f1e0a2f3c47c7e82e8765077", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(applyGiftCard, "4069c4386e8d86f831be4071d022d0d4fcb6d0256b", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(removeDiscount, "405979a37a83f6f8d0ba0e7bdc4e2f23afb9e109b1", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(removeGiftCard, "601c49c07f836184c1ddf59d80e04b686528204245", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(submitPromotionForm, "60054b93c668246c678412b886e1b1aace1f72e097", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(setAddresses, "60866bcc1d609cdc96e1726a91dcaa1a209e78536e", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(placeOrder, "4040ab96b4c99f398cb2345b2970dbe993bb1a1bb1", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateRegion, "6072073aea116047e91d5d10c43b88d4859cbeb102", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(listCartOptions, "00d80e737f1368390fd30800445b728af2c2798ffd", null);
 }),
 "[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"008d967cb2ab92fa23552109afc61ad360f45d0e81":"transferCart","403998d7912957d9855a4fcae42239b7e01d561a8c":"confirmEmailVerification","40463cebc5e8eee75b76e5000ae33416ffeb5190a8":"signout","60870fcbab5773f99bdb70d28ef96a92ca84944a0e":"login","60f2a981f8f821a32a13976474e90a149ede4b0c64":"signup","7f0b947bd0b9d60afdefa92e784bea1b7eb478f2aa":"updateCustomer","7f2ef3448f548ccdabf124815f76c70c43a574959a":"addCustomerAddress","7f543dd9035b084c37b81d0fbfbdb60763aaf87560":"deleteCustomerAddress","7f81135819b9aec510a30ae293bfb0c2aa065217b7":"retrieveCustomer","7f930215761bfeec19a0a058c55ab93eecbd79861d":"updateCustomerAddress"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"00ae559df8ecb4e9eaabb3c223b421c37870584736":"transferCart","403b0663c7a563e517108ff3a94437836682d2bd9b":"signout","408aea272cf5fa4f0280b710af068176f24c7750e1":"confirmEmailVerification","60232d287e8510a89a33205387d83bac00647c40e9":"signup","60c2eec65d22b7fd9e93ce891ab0e5bcea314ffbca":"login","7f192e205c334879b536d95450f63215a28b4b4c1d":"updateCustomer","7f1bc91145fba6b23923d1c61348b6d3fdd72ddf6b":"deleteCustomerAddress","7f2dc25d67279ce376f43aab3d3050efb193bf8ddf":"addCustomerAddress","7f776bfe82a00bff86cb75edce9f929595999ddd87":"updateCustomerAddress","7fe60d210e88101cb670557dcc4b68901cbf0767c8":"retrieveCustomer"},"",""] */ __turbopack_context__.s([
     "addCustomerAddress",
     ()=>addCustomerAddress,
     "confirmEmailVerification",
@@ -1118,16 +1118,16 @@ const updateCustomerAddress = async (currentState, formData)=>{
     deleteCustomerAddress,
     updateCustomerAddress
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(retrieveCustomer, "7f81135819b9aec510a30ae293bfb0c2aa065217b7", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateCustomer, "7f0b947bd0b9d60afdefa92e784bea1b7eb478f2aa", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signup, "60f2a981f8f821a32a13976474e90a149ede4b0c64", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(login, "60870fcbab5773f99bdb70d28ef96a92ca84944a0e", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(confirmEmailVerification, "403998d7912957d9855a4fcae42239b7e01d561a8c", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signout, "40463cebc5e8eee75b76e5000ae33416ffeb5190a8", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(transferCart, "008d967cb2ab92fa23552109afc61ad360f45d0e81", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(addCustomerAddress, "7f2ef3448f548ccdabf124815f76c70c43a574959a", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteCustomerAddress, "7f543dd9035b084c37b81d0fbfbdb60763aaf87560", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateCustomerAddress, "7f930215761bfeec19a0a058c55ab93eecbd79861d", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(retrieveCustomer, "7fe60d210e88101cb670557dcc4b68901cbf0767c8", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateCustomer, "7f192e205c334879b536d95450f63215a28b4b4c1d", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signup, "60232d287e8510a89a33205387d83bac00647c40e9", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(login, "60c2eec65d22b7fd9e93ce891ab0e5bcea314ffbca", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(confirmEmailVerification, "408aea272cf5fa4f0280b710af068176f24c7750e1", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signout, "403b0663c7a563e517108ff3a94437836682d2bd9b", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(transferCart, "00ae559df8ecb4e9eaabb3c223b421c37870584736", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(addCustomerAddress, "7f2dc25d67279ce376f43aab3d3050efb193bf8ddf", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deleteCustomerAddress, "7f1bc91145fba6b23923d1c61348b6d3fdd72ddf6b", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(updateCustomerAddress, "7f776bfe82a00bff86cb75edce9f929595999ddd87", null);
 }),
 "[project]/src/modules/layout/components/cart-mismatch-banner/index.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
 "use strict";
@@ -1211,7 +1211,7 @@ const getCategoryByHandle = async (categoryHandle)=>{
 "[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"7f555f555c6356a80fcf56e0c4e80a6ad69c14d53a":"retrieveCollection","7f560e6de459fd297db7efde60e5c211c7acaddd81":"getCollectionByHandle","7fae97ff196acb04325e5e6effb8c603d08f7836b7":"listCollections"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"7f1dfe30e1a7a306883d83a6eaf1a796a7aeb5a265":"getCollectionByHandle","7f6c63824ca3a7dff5963d038a25f68567152883e8":"retrieveCollection","7f72e473e7280210c308079fe0c90ab4957395f24b":"listCollections"},"",""] */ __turbopack_context__.s([
     "getCollectionByHandle",
     ()=>getCollectionByHandle,
     "listCollections",
@@ -1269,9 +1269,9 @@ const getCollectionByHandle = async (handle)=>{
     listCollections,
     getCollectionByHandle
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(retrieveCollection, "7f555f555c6356a80fcf56e0c4e80a6ad69c14d53a", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(listCollections, "7fae97ff196acb04325e5e6effb8c603d08f7836b7", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getCollectionByHandle, "7f560e6de459fd297db7efde60e5c211c7acaddd81", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(retrieveCollection, "7f6c63824ca3a7dff5963d038a25f68567152883e8", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(listCollections, "7f72e473e7280210c308079fe0c90ab4957395f24b", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getCollectionByHandle, "7f1dfe30e1a7a306883d83a6eaf1a796a7aeb5a265", null);
 }),
 "[project]/src/modules/common/components/localized-client-link/index.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
 "use strict";
@@ -1738,7 +1738,7 @@ async function Footer() {
 "[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"7f28a68a06b07dc2f34ada1060d0ed47a4e84b3c81":"listLocales"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"7fae7af67d63f44f012dc28988514a399b544061c0":"listLocales"},"",""] */ __turbopack_context__.s([
     "listLocales",
     ()=>listLocales
 ]);
@@ -1763,7 +1763,7 @@ const listLocales = async ()=>{
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$validate$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ensureServerEntryExports"])([
     listLocales
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(listLocales, "7f28a68a06b07dc2f34ada1060d0ed47a4e84b3c81", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(listLocales, "7fae7af67d63f44f012dc28988514a399b544061c0", null);
 }),
 "[project]/src/modules/layout/components/cart-dropdown/index.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
 "use strict";

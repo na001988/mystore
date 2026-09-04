@@ -33,4 +33,4 @@ services:
     depends_on:
       mock-backend:
         condition: service_healthy
-    command: sh -c "npm install && npx next dev --turbopack -p 3000 -H 0.0.0.0"
+    command: sh -c "if [ ! -d node_modules/next ]; then npm install; fi && npx next dev --turbopack -p 3000 -H 0.0.0.0"
