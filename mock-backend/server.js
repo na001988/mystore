@@ -117,16 +117,32 @@ function makeCart(id, regionId) {
   return {
     id,
     region_id: regionId || REGION.id,
+    region: REGION,
     items: [],
     total: 0,
     subtotal: 0,
     item_total: 0,
+    item_subtotal: 0,
+    shipping_subtotal: 0,
+    discount_subtotal: 0,
+    tax_total: 0,
     currency_code: "eur",
+    email: null,
     shipping_address: null,
     billing_address: null,
     shipping_methods: [],
     promotions: [],
   }
+}
+
+function recalcCart(cart) {
+  cart.item_total = cart.items.reduce((s, i) => s + i.total, 0)
+  cart.item_subtotal = cart.item_total
+  cart.subtotal = cart.item_total
+  cart.shipping_subtotal = 0
+  cart.discount_subtotal = 0
+  cart.tax_total = 0
+  cart.total = cart.item_total
 }
 
 // ---------------------------------------------------------------------------
@@ -168,6 +184,8 @@ const server = http.createServer(async (req, res) => {
   if (req.method === "OPTIONS") {
     return sendJSON(res, {}, 204)
   }
+
+  console.log(`[mock] ${req.method} ${req.url}`)
 
   const parsed = new URL(req.url, `http://localhost:${PORT}`)
   const path = parsed.pathname
@@ -259,20 +277,7 @@ const server = http.createServer(async (req, res) => {
     carts.set(id, cart)
     return sendJSON(res, { cart })
   }
-  if (path.startsWith("/store/carts/") && method === "GET") {
-    const id = path.split("/")[3]
-    const cart = carts.get(id)
-    if (cart) return sendJSON(res, { cart })
-    // Return an empty cart if not found (avoids errors)
-    return sendJSON(res, { cart: makeCart(id, REGION.id) })
-  }
-  if (path.startsWith("/store/carts/") && method === "POST") {
-    const id = path.split("/")[3]
-    const cart = carts.get(id) || makeCart(id, REGION.id)
-    carts.set(id, cart)
-    return sendJSON(res, { cart })
-  }
-  // Line items
+  // Line items — MUST come before the generic cart POST handler
   if (path.match(/^\/store\/carts\/[^/]+\/line-items$/) && method === "POST") {
     const cartId = path.split("/")[3]
     const body = await readBody(req)
@@ -281,18 +286,36 @@ const server = http.createServer(async (req, res) => {
     if (variant) {
       const product = PRODUCTS.find((p) => p.variants.includes(variant))
       const qty = body.quantity || 1
+      const unitPrice = variant.calculated_price.calculated_amount
       cart.items.push({
         id: `item_${Date.now()}`,
         variant_id: variant.id,
         quantity: qty,
-        unit_price: variant.calculated_price.calculated_amount,
-        total: variant.calculated_price.calculated_amount * qty,
+        unit_price: unitPrice,
+        original_unit_price: unitPrice,
+        subtotal: unitPrice * qty,
+        original_total: unitPrice * qty,
+        total: unitPrice * qty,
         product_title: product?.title,
+        product_handle: product?.handle,
         variant_title: variant.title,
         thumbnail: product?.thumbnail,
+        created_at: new Date().toISOString(),
+        variant: {
+          id: variant.id,
+          title: variant.title,
+          manage_inventory: variant.manage_inventory,
+          allow_backorder: variant.allow_backorder,
+          options: variant.options,
+          product: {
+            id: product?.id,
+            handle: product?.handle,
+            title: product?.title,
+            images: product?.images,
+          },
+        },
       })
-      cart.item_total = cart.items.reduce((s, i) => s + i.total, 0)
-      cart.total = cart.item_total
+      recalcCart(cart)
     }
     carts.set(cartId, cart)
     return sendJSON(res, { cart })
@@ -309,11 +332,36 @@ const server = http.createServer(async (req, res) => {
       if (item && body.quantity) {
         item.quantity = body.quantity
         item.total = item.unit_price * item.quantity
+        item.subtotal = item.unit_price * item.quantity
+        item.original_total = item.total
       }
     }
-    cart.item_total = cart.items.reduce((s, i) => s + i.total, 0)
-    cart.total = cart.item_total
+    recalcCart(cart)
     carts.set(cartId, cart)
+    return sendJSON(res, { cart })
+  }
+  // Cart customer transfer — before generic POST
+  if (path.match(/^\/store\/carts\/[^/]+\/customer$/) && method === "POST") {
+    return sendJSON(res, { cart: carts.get(path.split("/")[3]) || makeCart("cart_x", REGION.id) })
+  }
+  if (path.startsWith("/store/carts/") && method === "GET") {
+    const id = path.split("/")[3]
+    const cart = carts.get(id)
+    if (cart) return sendJSON(res, { cart })
+    // Return an empty cart if not found (avoids errors)
+    return sendJSON(res, { cart: makeCart(id, REGION.id) })
+  }
+  if (path.startsWith("/store/carts/") && method === "POST") {
+    const id = path.split("/")[3]
+    const body = await readBody(req)
+    const cart = carts.get(id) || makeCart(id, REGION.id)
+    // Update cart fields (region, email, addresses, promo_codes, etc.)
+    if (body.region_id) cart.region_id = body.region_id
+    if (body.email) cart.email = body.email
+    if (body.shipping_address) cart.shipping_address = body.shipping_address
+    if (body.billing_address) cart.billing_address = body.billing_address
+    if (body.promo_codes) cart.promo_codes = body.promo_codes
+    carts.set(id, cart)
     return sendJSON(res, { cart })
   }
 
@@ -373,11 +421,6 @@ const server = http.createServer(async (req, res) => {
   // --- Locales (not configured → 404, handled by storefront) ---
   if (path === "/store/locales" && method === "GET") {
     return sendJSON(res, { error: "Not found" }, 404)
-  }
-
-  // --- Cart customer transfer ---
-  if (path.match(/^\/store\/carts\/[^/]+\/customer$/) && method === "POST") {
-    return sendJSON(res, { cart: carts.get(path.split("/")[3]) || makeCart("cart_x", REGION.id) })
   }
 
   // Catch-all: return empty success to avoid breaking the UI

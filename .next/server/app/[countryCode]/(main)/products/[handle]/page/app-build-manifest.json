@@ -1,6 +1,6 @@
 {
   "pages": {
-    "/[countryCode]/(main)/account/@login/page": [
+    "/[countryCode]/(main)/products/[handle]/page": [
       "static/chunks/node_modules_next_dist_8db7fb1f._.js",
       "static/chunks/src_app_twitter-image_jpg_mjs_96ba2f10._.js",
       "static/chunks/src_styles_globals_47180df9.css",
@@ -15,10 +15,9 @@
       "static/chunks/node_modules_@floating-ui_react_dist_22386cb2._.js",
       "static/chunks/node_modules_8a2b4f33._.js",
       "static/chunks/src_app_[countryCode]_(main)_layout_tsx_c501be54._.js",
-      "static/chunks/_43a53c86._.js",
-      "static/chunks/src_app_[countryCode]_(main)_account_layout_tsx_6c69750d._.js",
-      "static/chunks/src_63a769a9._.js",
-      "static/chunks/src_app_[countryCode]_(main)_account_@login_page_tsx_b8bf3059._.js",
+      "static/chunks/src_0132f687._.js",
+      "static/chunks/node_modules_ca8bac26._.js",
+      "static/chunks/src_app_[countryCode]_(main)_products_[handle]_page_tsx_6c69750d._.js",
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_4e3b0bdd._.js",
       "static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js",
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_a9cb0712.js",
