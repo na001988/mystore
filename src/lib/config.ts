@@ -4,7 +4,11 @@ import Medusa, { FetchArgs, FetchInput } from "@medusajs/js-sdk"
 // Defaults to standard port for Medusa server
 let MEDUSA_BACKEND_URL = "http://localhost:9000"
 
-if (process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL) {
+// On the server, use the internal backend URL (e.g. http://backend:9000).
+// In the browser, use the public URL (same origin, proxied via Next.js rewrites).
+if (typeof window === "undefined" && process.env.MEDUSA_BACKEND_URL) {
+  MEDUSA_BACKEND_URL = process.env.MEDUSA_BACKEND_URL
+} else if (process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL) {
   MEDUSA_BACKEND_URL = process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL
 }
 

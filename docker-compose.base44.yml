@@ -1,0 +1,36 @@
+services:
+  mock-backend:
+    image: node:20
+    working_dir: /app/mock
+    volumes:
+      - ./mock-backend:/app/mock
+    command: node /app/mock/server.js
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:9000/health',r=>process.exit(r.statusCode===200?0:1)).on('error',()=>process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  storefront:
+    image: node:20
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./.env.base44-defaults
+      - /run/base44/app.env
+    environment:
+      - MEDUSA_BACKEND_URL=http://mock-backend:9000
+      - NEXT_PUBLIC_MEDUSA_BACKEND_URL=https://3000-${BASE44_PUBLIC_HOST_SUFFIX}
+      - NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY=pk_mock_key
+      - NEXT_PUBLIC_DEFAULT_REGION=dk
+      - NEXT_PUBLIC_BASE_URL=https://3000-${BASE44_PUBLIC_HOST_SUFFIX}
+      - BASE44_PUBLIC_HOST_SUFFIX=${BASE44_PUBLIC_HOST_SUFFIX}
+      - NODE_ENV=development
+    depends_on:
+      mock-backend:
+        condition: service_healthy
+    command: sh -c "npm install && npx next dev --turbopack -p 3000 -H 0.0.0.0"

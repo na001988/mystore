@@ -1,0 +1,5 @@
+{
+  "/[countryCode]/(main)/collections/[handle]/page": "app/[countryCode]/(main)/collections/[handle]/page.js",
+  "/[countryCode]/(main)/page": "app/[countryCode]/(main)/page.js",
+  "/[countryCode]/(main)/store/page": "app/[countryCode]/(main)/store/page.js"
+}

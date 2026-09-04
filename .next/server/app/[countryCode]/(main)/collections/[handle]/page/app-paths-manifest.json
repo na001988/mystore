@@ -1,0 +1,3 @@
+{
+  "/[countryCode]/(main)/collections/[handle]/page": "app/[countryCode]/(main)/collections/[handle]/page.js"
+}

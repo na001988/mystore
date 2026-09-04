@@ -1,0 +1,21 @@
+{
+  "name": "medusa-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "medusa develop",
+    "start": "medusa start",
+    "seed": "medusa exec ./src/scripts/seed.ts"
+  },
+  "dependencies": {
+    "@medusajs/admin-sdk": "2.19.0",
+    "@medusajs/cli": "2.19.0",
+    "@medusajs/framework": "2.19.0",
+    "@medusajs/medusa": "2.19.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.7.28",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
