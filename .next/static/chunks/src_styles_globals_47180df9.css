@@ -2271,6 +2271,10 @@ img, video {
   line-height: 1;
 }
 
+.leading-tight {
+  line-height: 1.25;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity, 1));
@@ -2444,6 +2448,10 @@ img, video {
 
 .opacity-75 {
   opacity: .75;
+}
+
+.opacity-80 {
+  opacity: .8;
 }
 
 .shadow-borders-base {
