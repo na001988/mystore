@@ -820,21 +820,21 @@ __turbopack_context__.s([
     ()=>heroConfig
 ]);
 const heroConfig = {
-    title: "Medusa Store",
-    subtitle: "Commerce without limits",
+    title: "Green Energy Services",
+    subtitle: "Power your home with the sun — premium solar batteries",
     fontSize: {
         mobile: "text-2xl",
         desktop: "text-5xl"
     },
     backgroundImage: "",
-    backgroundColor: "#0f172a",
+    backgroundColor: "#14532d",
     backgroundPosition: "center",
     backgroundSize: "cover",
-    textColor: "#f8fafc",
-    alignment: "center",
+    textColor: "#f0fdf4",
+    alignment: "left",
     verticalPosition: "center",
     cta: {
-        label: "Shop now",
+        label: "Explore batteries",
         href: "/store",
         variant: "secondary"
     },
