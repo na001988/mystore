@@ -7,10 +7,17 @@
           "async": false,
           "exportedName": "listCartOptions",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "listCartOptions",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "listCartOptions"
@@ -22,10 +29,17 @@
           "async": false,
           "exportedName": "placeOrder",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "placeOrder",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "placeOrder"
@@ -37,10 +51,17 @@
           "async": false,
           "exportedName": "updateCart",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCart",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "updateCart"
@@ -52,10 +73,17 @@
           "async": false,
           "exportedName": "deleteLineItem",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteLineItem",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "action-browser"
+        "app/[countryCode]/(main)/page": "action-browser",
+        "app/[countryCode]/(main)/store/page": "action-browser"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "deleteLineItem"
@@ -67,10 +95,17 @@
           "async": false,
           "exportedName": "removeDiscount",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "removeDiscount",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "removeDiscount"
@@ -82,10 +117,17 @@
           "async": false,
           "exportedName": "applyPromotions",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "applyPromotions",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "applyPromotions"
@@ -97,10 +139,17 @@
           "async": false,
           "exportedName": "addToCart",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addToCart",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "addToCart"
@@ -112,10 +161,17 @@
           "async": false,
           "exportedName": "setShippingMethod",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "setShippingMethod",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "setShippingMethod"
@@ -127,10 +183,17 @@
           "async": false,
           "exportedName": "updateLineItem",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateLineItem",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "updateLineItem"
@@ -142,10 +205,17 @@
           "async": false,
           "exportedName": "getOrSetCart",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getOrSetCart",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "getOrSetCart"
@@ -157,10 +227,17 @@
           "async": false,
           "exportedName": "applyGiftCard",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "applyGiftCard",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "applyGiftCard"
@@ -172,10 +249,17 @@
           "async": false,
           "exportedName": "updateRegion",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateRegion",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "action-browser"
+        "app/[countryCode]/(main)/page": "action-browser",
+        "app/[countryCode]/(main)/store/page": "action-browser"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "updateRegion"
@@ -187,10 +271,17 @@
           "async": false,
           "exportedName": "removeGiftCard",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "removeGiftCard",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "removeGiftCard"
@@ -202,10 +293,17 @@
           "async": false,
           "exportedName": "retrieveCart",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "retrieveCart",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "retrieveCart"
@@ -217,10 +315,17 @@
           "async": false,
           "exportedName": "initiatePaymentSession",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "initiatePaymentSession",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "initiatePaymentSession"
@@ -232,10 +337,17 @@
           "async": false,
           "exportedName": "setAddresses",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "setAddresses",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "setAddresses"
@@ -247,10 +359,17 @@
           "async": false,
           "exportedName": "submitPromotionForm",
           "filename": "src/lib/data/cart.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "submitPromotionForm",
+          "filename": "src/lib/data/cart.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/cart.ts",
       "exportedName": "submitPromotionForm"
@@ -262,10 +381,17 @@
           "async": false,
           "exportedName": "transferCart",
           "filename": "src/lib/data/customer.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "transferCart",
+          "filename": "src/lib/data/customer.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "action-browser"
+        "app/[countryCode]/(main)/page": "action-browser",
+        "app/[countryCode]/(main)/store/page": "action-browser"
       },
       "filename": "src/lib/data/customer.ts",
       "exportedName": "transferCart"
@@ -277,10 +403,17 @@
           "async": false,
           "exportedName": "confirmEmailVerification",
           "filename": "src/lib/data/customer.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "confirmEmailVerification",
+          "filename": "src/lib/data/customer.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/customer.ts",
       "exportedName": "confirmEmailVerification"
@@ -292,10 +425,17 @@
           "async": false,
           "exportedName": "signout",
           "filename": "src/lib/data/customer.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "signout",
+          "filename": "src/lib/data/customer.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/customer.ts",
       "exportedName": "signout"
@@ -307,10 +447,17 @@
           "async": false,
           "exportedName": "signup",
           "filename": "src/lib/data/customer.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "signup",
+          "filename": "src/lib/data/customer.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/customer.ts",
       "exportedName": "signup"
@@ -322,10 +469,17 @@
           "async": false,
           "exportedName": "login",
           "filename": "src/lib/data/customer.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "login",
+          "filename": "src/lib/data/customer.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/customer.ts",
       "exportedName": "login"
@@ -337,10 +491,17 @@
           "async": false,
           "exportedName": "updateCustomerAddress",
           "filename": "src/lib/data/customer.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCustomerAddress",
+          "filename": "src/lib/data/customer.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/customer.ts",
       "exportedName": "updateCustomerAddress"
@@ -352,10 +513,17 @@
           "async": false,
           "exportedName": "retrieveCustomer",
           "filename": "src/lib/data/customer.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "retrieveCustomer",
+          "filename": "src/lib/data/customer.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/customer.ts",
       "exportedName": "retrieveCustomer"
@@ -367,10 +535,17 @@
           "async": false,
           "exportedName": "deleteCustomerAddress",
           "filename": "src/lib/data/customer.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCustomerAddress",
+          "filename": "src/lib/data/customer.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/customer.ts",
       "exportedName": "deleteCustomerAddress"
@@ -382,10 +557,17 @@
           "async": false,
           "exportedName": "addCustomerAddress",
           "filename": "src/lib/data/customer.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addCustomerAddress",
+          "filename": "src/lib/data/customer.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/customer.ts",
       "exportedName": "addCustomerAddress"
@@ -397,10 +579,17 @@
           "async": false,
           "exportedName": "updateCustomer",
           "filename": "src/lib/data/customer.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCustomer",
+          "filename": "src/lib/data/customer.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/customer.ts",
       "exportedName": "updateCustomer"
@@ -412,10 +601,17 @@
           "async": false,
           "exportedName": "getRegion",
           "filename": "src/lib/data/regions.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getRegion",
+          "filename": "src/lib/data/regions.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/regions.ts",
       "exportedName": "getRegion"
@@ -427,10 +623,17 @@
           "async": false,
           "exportedName": "retrieveRegion",
           "filename": "src/lib/data/regions.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "retrieveRegion",
+          "filename": "src/lib/data/regions.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/regions.ts",
       "exportedName": "retrieveRegion"
@@ -442,10 +645,17 @@
           "async": false,
           "exportedName": "listRegions",
           "filename": "src/lib/data/regions.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "listRegions",
+          "filename": "src/lib/data/regions.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/regions.ts",
       "exportedName": "listRegions"
@@ -457,10 +667,17 @@
           "async": false,
           "exportedName": "updateLocale",
           "filename": "src/lib/data/locale-actions.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateLocale",
+          "filename": "src/lib/data/locale-actions.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "action-browser"
+        "app/[countryCode]/(main)/page": "action-browser",
+        "app/[countryCode]/(main)/store/page": "action-browser"
       },
       "filename": "src/lib/data/locale-actions.ts",
       "exportedName": "updateLocale"
@@ -472,10 +689,17 @@
           "async": false,
           "exportedName": "getLocale",
           "filename": "src/lib/data/locale-actions.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getLocale",
+          "filename": "src/lib/data/locale-actions.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "action-browser"
       },
       "filename": "src/lib/data/locale-actions.ts",
       "exportedName": "getLocale"
@@ -487,10 +711,17 @@
           "async": false,
           "exportedName": "setLocaleCookie",
           "filename": "src/lib/data/locale-actions.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "setLocaleCookie",
+          "filename": "src/lib/data/locale-actions.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/locale-actions.ts",
       "exportedName": "setLocaleCookie"
@@ -502,10 +733,17 @@
           "async": false,
           "exportedName": "retrieveCollection",
           "filename": "src/lib/data/collections.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "retrieveCollection",
+          "filename": "src/lib/data/collections.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/collections.ts",
       "exportedName": "retrieveCollection"
@@ -517,10 +755,17 @@
           "async": false,
           "exportedName": "getCollectionByHandle",
           "filename": "src/lib/data/collections.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCollectionByHandle",
+          "filename": "src/lib/data/collections.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/collections.ts",
       "exportedName": "getCollectionByHandle"
@@ -532,10 +777,17 @@
           "async": false,
           "exportedName": "listCollections",
           "filename": "src/lib/data/collections.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "listCollections",
+          "filename": "src/lib/data/collections.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/collections.ts",
       "exportedName": "listCollections"
@@ -547,10 +799,17 @@
           "async": false,
           "exportedName": "listLocales",
           "filename": "src/lib/data/locales.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "listLocales",
+          "filename": "src/lib/data/locales.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/locales.ts",
       "exportedName": "listLocales"
@@ -562,10 +821,17 @@
           "async": false,
           "exportedName": "listProducts",
           "filename": "src/lib/data/products.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "listProducts",
+          "filename": "src/lib/data/products.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/products.ts",
       "exportedName": "listProducts"
@@ -577,10 +843,17 @@
           "async": false,
           "exportedName": "listProductsWithSort",
           "filename": "src/lib/data/products.ts"
+        },
+        "app/[countryCode]/(main)/store/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/store/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/data/customer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/lib/data/regions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/lib/data/locale-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/lib/data/collections.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/lib/data/locales.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE6 => \"[project]/src/lib/data/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "listProductsWithSort",
+          "filename": "src/lib/data/products.ts"
         }
       },
       "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
+        "app/[countryCode]/(main)/page": "rsc",
+        "app/[countryCode]/(main)/store/page": "rsc"
       },
       "filename": "src/lib/data/products.ts",
       "exportedName": "listProductsWithSort"
