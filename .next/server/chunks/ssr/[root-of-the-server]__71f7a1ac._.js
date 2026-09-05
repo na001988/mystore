@@ -808,75 +808,98 @@ __turbopack_context__.s([
     ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$medusajs$2f$icons$2f$dist$2f$esm$2f$github$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__ = __turbopack_context__.i("[project]/node_modules/@medusajs/icons/dist/esm/github.js [app-rsc] (ecmascript) <export default as Github>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$modules$2f$common$2f$components$2f$ui$2f$index$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/src/modules/common/components/ui/index.tsx [app-rsc] (ecmascript) <locals>");
+(()=>{
+    const e = new Error("Cannot find module '@/ui-config'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 ;
 ;
 ;
+// Maps config values to Tailwind utility classes
+const alignmentClasses = {
+    left: "items-start text-left",
+    center: "items-center text-center",
+    right: "items-end text-right"
+};
+const verticalClasses = {
+    top: "justify-start",
+    center: "justify-center",
+    bottom: "justify-end"
+};
 const Hero = ()=>{
+    const { title, subtitle, fontSize, backgroundImage, backgroundColor, backgroundPosition, backgroundSize, textColor, alignment, verticalPosition, cta, height } = heroConfig;
+    const bgStyle = backgroundImage ? {
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundPosition,
+        backgroundSize,
+        backgroundColor
+    } : {
+        backgroundColor
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-[75vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle",
+        className: "w-full border-b border-ui-border-base relative",
+        style: {
+            ...bgStyle,
+            height
+        },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-6",
+            className: `absolute inset-0 z-10 flex flex-col small:p-32 gap-6 ${alignmentClasses[alignment]} ${verticalClasses[verticalPosition]}`,
+            style: {
+                color: textColor
+            },
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$modules$2f$common$2f$components$2f$ui$2f$index$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Heading"], {
                             level: "h1",
-                            className: "text-3xl leading-10 text-ui-fg-base font-normal",
-                            children: "Ecommerce Starter Template"
+                            className: `${fontSize.desktop} leading-tight font-normal`,
+                            children: title
                         }, void 0, false, {
                             fileName: "[project]/src/modules/home/components/hero/index.tsx",
-                            lineNumber: 8,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$modules$2f$common$2f$components$2f$ui$2f$index$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Heading"], {
                             level: "h2",
-                            className: "text-3xl leading-10 text-ui-fg-subtle font-normal",
-                            children: "Powered by Medusa and Next.js"
+                            className: `${fontSize.desktop} leading-tight font-normal opacity-80`,
+                            children: subtitle
                         }, void 0, false, {
                             fileName: "[project]/src/modules/home/components/hero/index.tsx",
-                            lineNumber: 14,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/modules/home/components/hero/index.tsx",
-                    lineNumber: 7,
+                    lineNumber: 51,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                    href: "https://github.com/medusajs/dtc-starter",
-                    target: "_blank",
+                    href: cta.href,
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$modules$2f$common$2f$components$2f$ui$2f$index$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Button"], {
-                        variant: "secondary",
-                        children: [
-                            "View on GitHub ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$medusajs$2f$icons$2f$dist$2f$esm$2f$github$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__["Github"], {}, void 0, false, {
-                                fileName: "[project]/src/modules/home/components/hero/index.tsx",
-                                lineNumber: 23,
-                                columnNumber: 28
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
+                        variant: cta.variant,
+                        children: cta.label
+                    }, void 0, false, {
                         fileName: "[project]/src/modules/home/components/hero/index.tsx",
-                        lineNumber: 22,
+                        lineNumber: 66,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/modules/home/components/hero/index.tsx",
-                    lineNumber: 21,
+                    lineNumber: 65,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/modules/home/components/hero/index.tsx",
-            lineNumber: 6,
+            lineNumber: 47,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/modules/home/components/hero/index.tsx",
-        lineNumber: 5,
+        lineNumber: 43,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

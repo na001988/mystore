@@ -1,5 +1,5 @@
 import { Button, Heading } from "@modules/common/components/ui"
-import { heroConfig } from "@config/ui-config"
+import { heroConfig } from "../../../../ui-config"
 
 // Maps config values to Tailwind utility classes
 const alignmentClasses: Record<string, string> = {
