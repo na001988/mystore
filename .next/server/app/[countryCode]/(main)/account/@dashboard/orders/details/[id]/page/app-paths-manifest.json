@@ -1,0 +1,3 @@
+{
+  "/[countryCode]/(main)/account/@dashboard/orders/details/[id]/page": "app/[countryCode]/(main)/account/@dashboard/orders/details/[id]/page.js"
+}
