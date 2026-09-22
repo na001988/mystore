@@ -65,20 +65,24 @@ const SideMenu = ({ regions, locales, currentLocale }: SideMenuProps) => {
                 <PopoverPanel className="flex flex-col absolute w-full pr-4 sm:pr-0 sm:w-1/3 2xl:w-1/4 sm:min-w-min h-[calc(100vh-1rem)] z-[51] inset-x-0 text-sm text-ui-fg-on-color m-2 backdrop-blur-2xl">
                   <div
                     data-testid="nav-menu-popup"
-                    className="flex flex-col h-full bg-[rgba(3,7,18,0.5)] rounded-rounded justify-between p-6"
+                    className="flex flex-col h-full bg-[rgba(3,7,18,0.5)] rounded-rounded justify-between p-8"
                   >
                     <div className="flex justify-end" id="xmark">
-                      <button data-testid="close-menu-button" onClick={close}>
+                      <button
+                        data-testid="close-menu-button"
+                        onClick={close}
+                        className="text-ui-fg-on-color opacity-70 hover:opacity-100 transition-opacity duration-200"
+                      >
                         <XMark />
                       </button>
                     </div>
-                    <ul className="flex flex-col gap-6 items-start justify-start">
+                    <ul className="flex flex-col gap-4 items-start justify-start">
                       {Object.entries(SideMenuItems).map(([name, href]) => {
                         return (
                           <li key={name}>
                             <LocalizedClientLink
                               href={href}
-                              className="text-3xl leading-10 hover:text-ui-fg-disabled"
+                              className="text-xl font-medium leading-7 text-ui-fg-on-color hover:text-ui-fg-disabled transition-colors duration-200"
                               onClick={close}
                               data-testid={`${name.toLowerCase()}-link`}
                             >
@@ -88,7 +92,7 @@ const SideMenu = ({ regions, locales, currentLocale }: SideMenuProps) => {
                         )
                       })}
                     </ul>
-                    <div className="flex flex-col gap-y-6">
+                    <div className="flex flex-col gap-y-4 border-t border-white/10 pt-4">
                       {!!locales?.length && (
                         <div
                           className="flex justify-between"

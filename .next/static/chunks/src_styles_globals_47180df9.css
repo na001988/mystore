@@ -1779,6 +1779,10 @@ img, video {
   border-color: rgba(255, 255, 255, var(--tw-border-opacity, 1));
 }
 
+.border-white\/10 {
+  border-color: rgba(255, 255, 255, .1);
+}
+
 .bg-\[rgba\(3\,7\,18\,0\.5\)\] {
   background-color: rgba(3, 7, 18, .5);
 }
@@ -2271,6 +2275,10 @@ img, video {
   line-height: 1.25;
 }
 
+.leading-7 {
+  line-height: 1.75rem;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity, 1));
@@ -2450,6 +2458,10 @@ img, video {
   opacity: .8;
 }
 
+.opacity-70 {
+  opacity: .7;
+}
+
 .shadow-borders-base {
   --tw-shadow: var(--borders-base);
   --tw-shadow-colored: var(--borders-base);
@@ -2549,6 +2561,12 @@ img, video {
 
 .transition-transform {
   transition-property: transform;
+  transition-duration: .15s;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+}
+
+.transition-opacity {
+  transition-property: opacity;
   transition-duration: .15s;
   transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
@@ -2842,6 +2860,10 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .hover\:text-ui-fg-subtle:hover {
   color: var(--fg-subtle);
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
 }
 
 .hover\:shadow-borders-interactive-with-active:hover {

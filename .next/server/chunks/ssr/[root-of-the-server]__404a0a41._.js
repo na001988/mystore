@@ -1835,7 +1835,7 @@ const SideMenu = ({ regions, locales, currentLocale })=>{
                                     className: "flex flex-col absolute w-full pr-4 sm:pr-0 sm:w-1/3 2xl:w-1/4 sm:min-w-min h-[calc(100vh-1rem)] z-[51] inset-x-0 text-sm text-ui-fg-on-color m-2 backdrop-blur-2xl",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         "data-testid": "nav-menu-popup",
-                                        className: "flex flex-col h-full bg-[rgba(3,7,18,0.5)] rounded-rounded justify-between p-6",
+                                        className: "flex flex-col h-full bg-[rgba(3,7,18,0.5)] rounded-rounded justify-between p-8",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex justify-end",
@@ -1843,9 +1843,10 @@ const SideMenu = ({ regions, locales, currentLocale })=>{
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     "data-testid": "close-menu-button",
                                                     onClick: close,
+                                                    className: "text-ui-fg-on-color opacity-70 hover:opacity-100 transition-opacity duration-200",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$medusajs$2f$icons$2f$dist$2f$esm$2f$x$2d$mark$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__XMark$3e$__["XMark"], {}, void 0, false, {
                                                         fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                        lineNumber: 72,
+                                                        lineNumber: 76,
                                                         columnNumber: 25
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
@@ -1859,33 +1860,33 @@ const SideMenu = ({ regions, locales, currentLocale })=>{
                                                 columnNumber: 21
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "flex flex-col gap-6 items-start justify-start",
+                                                className: "flex flex-col gap-4 items-start justify-start",
                                                 children: Object.entries(SideMenuItems).map(([name, href])=>{
                                                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$modules$2f$common$2f$components$2f$localized$2d$client$2d$link$2f$index$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             href: href,
-                                                            className: "text-3xl leading-10 hover:text-ui-fg-disabled",
+                                                            className: "text-xl font-medium leading-7 text-ui-fg-on-color hover:text-ui-fg-disabled transition-colors duration-200",
                                                             onClick: close,
                                                             "data-testid": `${name.toLowerCase()}-link`,
                                                             children: name
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                            lineNumber: 79,
+                                                            lineNumber: 83,
                                                             columnNumber: 29
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, name, false, {
                                                         fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                        lineNumber: 78,
+                                                        lineNumber: 82,
                                                         columnNumber: 27
                                                     }, ("TURBOPACK compile-time value", void 0));
                                                 })
                                             }, void 0, false, {
                                                 fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                lineNumber: 75,
+                                                lineNumber: 79,
                                                 columnNumber: 21
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex flex-col gap-y-6",
+                                                className: "flex flex-col gap-y-4 border-t border-white/10 pt-4",
                                                 children: [
                                                     !!locales?.length && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "flex justify-between",
@@ -1898,20 +1899,20 @@ const SideMenu = ({ regions, locales, currentLocale })=>{
                                                                 currentLocale: currentLocale
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                                lineNumber: 98,
+                                                                lineNumber: 102,
                                                                 columnNumber: 27
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$medusajs$2f$icons$2f$dist$2f$esm$2f$arrow$2d$right$2d$mini$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRightMini$3e$__["ArrowRightMini"], {
                                                                 className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__clx$3e$__["clx"])("transition-transform duration-150", languageToggleState.state ? "-rotate-90" : "")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                                lineNumber: 103,
+                                                                lineNumber: 107,
                                                                 columnNumber: 27
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                        lineNumber: 93,
+                                                        lineNumber: 97,
                                                         columnNumber: 25
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1924,20 +1925,20 @@ const SideMenu = ({ regions, locales, currentLocale })=>{
                                                                 regions: regions
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                                lineNumber: 117,
+                                                                lineNumber: 121,
                                                                 columnNumber: 27
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$medusajs$2f$icons$2f$dist$2f$esm$2f$arrow$2d$right$2d$mini$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRightMini$3e$__["ArrowRightMini"], {
                                                                 className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__clx$3e$__["clx"])("transition-transform duration-150", countryToggleState.state ? "-rotate-90" : "")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                                lineNumber: 122,
+                                                                lineNumber: 126,
                                                                 columnNumber: 25
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                        lineNumber: 111,
+                                                        lineNumber: 115,
                                                         columnNumber: 23
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$modules$2f$common$2f$components$2f$ui$2f$index$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Text"], {
@@ -1949,13 +1950,13 @@ const SideMenu = ({ regions, locales, currentLocale })=>{
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                        lineNumber: 129,
+                                                        lineNumber: 133,
                                                         columnNumber: 23
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/modules/layout/components/side-menu/index.tsx",
-                                                lineNumber: 91,
+                                                lineNumber: 95,
                                                 columnNumber: 21
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
