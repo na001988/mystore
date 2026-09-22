@@ -62,27 +62,30 @@ const SideMenu = ({ regions, locales, currentLocale }: SideMenuProps) => {
                 leaveFrom="opacity-100 backdrop-blur-2xl"
                 leaveTo="opacity-0"
               >
-                <PopoverPanel className="flex flex-col absolute w-full pr-4 sm:pr-0 sm:w-1/3 2xl:w-1/4 sm:min-w-min h-[calc(100vh-1rem)] z-[51] inset-x-0 text-sm text-ui-fg-on-color m-2 backdrop-blur-2xl">
+                <PopoverPanel className="flex flex-col absolute w-full pr-4 sm:pr-0 sm:w-1/3 2xl:w-1/4 sm:min-w-min h-fit max-h-screen z-[51] inset-x-0 text-sm text-ui-fg-on-color backdrop-blur-2xl">
                   <div
                     data-testid="nav-menu-popup"
-                    className="flex flex-col h-full bg-[rgba(3,7,18,0.5)] rounded-rounded justify-between p-8"
+                    className="flex flex-col h-fit bg-[rgba(3,7,18,0.85)] rounded-none p-6"
                   >
-                    <div className="flex justify-end" id="xmark">
+                    <div className="flex items-center justify-between pb-4 border-b border-white/10" id="xmark">
+                      <span className="text-xs uppercase tracking-widest text-white/50 font-medium">
+                        Navigation
+                      </span>
                       <button
                         data-testid="close-menu-button"
                         onClick={close}
-                        className="text-ui-fg-on-color opacity-70 hover:opacity-100 transition-opacity duration-200"
+                        className="text-ui-fg-on-color opacity-60 hover:opacity-100 transition-opacity duration-200"
                       >
                         <XMark />
                       </button>
                     </div>
-                    <ul className="flex flex-col gap-4 items-start justify-start">
+                    <ul className="flex flex-col gap-1 items-start justify-start pt-4">
                       {Object.entries(SideMenuItems).map(([name, href]) => {
                         return (
-                          <li key={name}>
+                          <li key={name} className="w-full">
                             <LocalizedClientLink
                               href={href}
-                              className="text-xl font-medium leading-7 text-ui-fg-on-color hover:text-ui-fg-disabled transition-colors duration-200"
+                              className="block text-lg font-medium leading-9 text-ui-fg-on-color hover:bg-white/10 hover:pl-3 hover:text-white transition-all duration-200 px-3 -mx-3 rounded-sm"
                               onClick={close}
                               data-testid={`${name.toLowerCase()}-link`}
                             >
@@ -92,7 +95,7 @@ const SideMenu = ({ regions, locales, currentLocale }: SideMenuProps) => {
                         )
                       })}
                     </ul>
-                    <div className="flex flex-col gap-y-4 border-t border-white/10 pt-4">
+                    <div className="flex flex-col gap-y-3 border-t border-white/10 pt-4 mt-6">
                       {!!locales?.length && (
                         <div
                           className="flex justify-between"
