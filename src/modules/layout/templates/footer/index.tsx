@@ -14,11 +14,11 @@ export default async function Footer() {
   return (
     <footer className="border-t border-ui-border-base w-full">
       <div className="content-container flex flex-col w-full">
-        <div className="flex flex-col items-center py-10 gap-y-4">
+        <div className="flex flex-col items-start py-10 gap-y-4">
           <span className="txt-small-plus text-ui-fg-base uppercase font-semibold">
             Categories
           </span>
-          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+          <div className="flex flex-wrap items-center justify-start gap-x-6 gap-y-2">
             {productCategories
               ?.filter((c) => !c.parent_category)
               ?.slice(0, 10)
@@ -36,7 +36,7 @@ export default async function Footer() {
           <span className="txt-small-plus text-ui-fg-base uppercase font-semibold mt-2">
             Collections
           </span>
-          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+          <div className="flex flex-wrap items-center justify-start gap-x-6 gap-y-2">
             {collections?.slice(0, 10).map((c) => (
               <LocalizedClientLink
                 key={c.id}
