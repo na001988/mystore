@@ -14,29 +14,39 @@ export default async function Footer() {
   return (
     <footer className="border-t border-ui-border-base w-full">
       <div className="content-container flex flex-col w-full">
-        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 py-10">
-          {productCategories
-            ?.filter((c) => !c.parent_category)
-            ?.slice(0, 6)
-            .map((c) => (
+        <div className="flex flex-col items-center py-10 gap-y-4">
+          <span className="txt-small-plus text-ui-fg-base uppercase font-semibold">
+            Categories
+          </span>
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+            {productCategories
+              ?.filter((c) => !c.parent_category)
+              ?.slice(0, 10)
+              .map((c) => (
+                <LocalizedClientLink
+                  key={c.id}
+                  className="txt-small text-ui-fg-subtle hover:text-ui-fg-base"
+                  href={`/categories/${c.handle}`}
+                  data-testid="category-link"
+                >
+                  {c.name}
+                </LocalizedClientLink>
+              ))}
+          </div>
+          <span className="txt-small-plus text-ui-fg-base uppercase font-semibold mt-2">
+            Collections
+          </span>
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+            {collections?.slice(0, 10).map((c) => (
               <LocalizedClientLink
                 key={c.id}
-                className="txt-small-plus text-ui-fg-base hover:text-ui-fg-subtle uppercase"
-                href={`/categories/${c.handle}`}
-                data-testid="category-link"
+                className="txt-small text-ui-fg-subtle hover:text-ui-fg-base"
+                href={`/collections/${c.handle}`}
               >
-                {c.name}
+                {c.title}
               </LocalizedClientLink>
             ))}
-          {collections?.slice(0, 6).map((c) => (
-            <LocalizedClientLink
-              key={c.id}
-              className="txt-small-plus text-ui-fg-base hover:text-ui-fg-subtle uppercase"
-              href={`/collections/${c.handle}`}
-            >
-              {c.title}
-            </LocalizedClientLink>
-          ))}
+          </div>
         </div>
         <div className="flex w-full mb-16 justify-between text-ui-fg-muted">
           <Text className="txt-compact-small">
